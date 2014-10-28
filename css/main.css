@@ -1,0 +1,33 @@
+
+.top-nav {
+  padding: 1.5rem 2em;
+  background: transparent;
+  position: fixed;
+}
+
+.top-nav li:last-child {
+  float: right;
+}
+
+.landing-section {
+  background: transparent url(../assets/images/shot3-BW.jpg) no-repeat center top;
+  background-size: cover;
+  padding:7em 2em;
+  text-align: center;
+}
+
+.landing-section li {
+  color: #fdc36f;
+}
+
+.ls-row {
+  margin-top: 5em;
+}
+
+.ls-row:first-child {
+  margin-top: 0;
+}
+
+.side-nav li {
+  color: #ffffff;
+}
