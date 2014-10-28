@@ -2,7 +2,36 @@
 <html lang="en-ca">
 	<head>
 	  <meta charset="utf-8">
-	  <title>Mark Collantes</title>
+	  <title>Mark Collantes · Graphic Designer · Ottawa, Canada</title>
+	  <meta name="Decribes yourself when searched in google">
+		<!-- Social Icon Meta -->
+		<!--- Facebook -->
+		<meta property="og:type" container="article">
+		<meta property="og:title" container="Mark Collantes · Graphic Designer · Ottawa, Canada">
+		<meta property="og:description" container="Decribes yourself when searched in google">
+		<meta property="og:site_name" container="Mark Collantes">
+		<meta property="og:url" container="http://markcollantes.ca">
+		<!--
+			You can have up to 5 different Images
+			If you do, Facebook will create a multi-panel image layout
+		-->
+		<meta property="og:image" container="">
+		<meta property="og:image" container="">
+		<meta property="og:image" container="">
+		<meta property="og:image" container="">
+		<meta property="og:image" container="">
+
+		<!--- Twitter -->
+		<meta name="twitter:card" container="gallery">
+		<meta name="twitter:title" container="Mark Collantes · Graphic Designer · Ottawa, Canada">
+		<meta name="twitter:description" container="Decribes yourself when searched in google">
+		<meta name="twitter:site_name" container="Mark Collantes">
+		<meta name="twitter:url" container="http://markcollantes.ca">
+		<meta property="twitter:image0" container="url">
+		<meta property="twitter:image1" container="url">
+		<meta property="twitter:image2" container="url">
+		<meta property="twitter:image" container="url">
+
 	  <link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/grid.css">
 		<link rel="stylesheet" href="css/typography.css">
@@ -10,50 +39,55 @@
 	  <link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,500' rel='stylesheet' type='text/css'>
 	</head>
 		<body>
+		<main>
 
 			<header class="grid unit unit-xs-1">
 				<ul class="top-nav unit unit-xs-1">
 					<li class="unit">
 						<a href="#">
-							<img src="assets/icons/logo-gold.png">
+							<img src="assets/icons/logo-gold.png" alt="Mark Collantes">
 						</a>
 					</li>
 					<li class="unit">
-						<a href="">
-							<img src="assets/icons/hb-menu-gold.png">
+						<a class="hb-logo" href="#">
+							<img  src="assets/icons/hb-menu-gold.png">
 						</a>
-						<ul class="side-nav">
-							<li class="giga">Home</li>
-							<li class="giga">Work</li>
-							<li class="giga">About</li>
-							<li class="giga">Contact</li>
-						</ul>
 					</li>
 				</ul>
+				<div class="side-nav" data-state="inactive">
+					<ul class="sn-container">
+							<li class="giga"><a href="#home">Home</a></li>
+							<li class="giga"><a href="#work">Work</a></li>
+							<li class="giga"><a href="#about">About</a></li>
+							<li class="giga"><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
 			</header>
 
-				<section class="grid unit-xs-1 landing-section">
+				<section id="home" class="grid unit-xs-1 landing-section">
 					<ul class="unit unit-xs-1 ls-row">
-						<li class="peta unit unit-xs-1-4">M</li>
-						<li class="peta unit unit-xs-1-4">A</li>
-						<li class="peta unit unit-xs-1-4">R</li>
-						<li class="peta unit unit-xs-1-4">K</li>
+						<li class="peta unit unit-xs-1-4"><span class="letter">M</span></li>
+						<li class="peta unit unit-xs-1-4"><span class="letter">A</span></li>
+						<li class="peta unit unit-xs-1-4"><span class="letter">R</span></li>
+						<li class="peta unit unit-xs-1-4"><span class="letter">K</span></li>
 					</ul>
 					<ul class="unit unit-xs-1 ls-row">
-						<li class="peta unit unit-xs-1-4">C</li>
-						<li class="peta unit unit-xs-1-4">O</li>
-						<li class="peta unit unit-xs-1-4">L</li>
-						<li class="peta unit unit-xs-1-4">L</li>
+						<li class="peta unit unit-xs-1-4"><span class="letter">C</span></li>
+						<li class="peta unit unit-xs-1-4"><span class="letter">O</span></li>
+						<li class="peta unit unit-xs-1-4"><span class="letter">L</span></li>
+						<li class="peta unit unit-xs-1-4"><span class="letter">L</span></li>
 					</ul>
 					<ul class="unit unit-xs-1 ls-row">
-						<li class="peta unit unit-xs-1-4">A</li>
-						<li class="peta unit unit-xs-1-4">N</li>
-						<li class="peta unit unit-xs-1-4">T</li>
-						<li class="peta unit unit-xs-1-4">ES</li>
+						<li class="peta unit unit-xs-1-4"><span class="letter">A</span></li>
+						<li class="peta unit unit-xs-1-4"><span class="letter">N</span></li>
+						<li class="peta unit unit-xs-1-4"><span class="letter">T</span></li>
+						<li class="peta unit unit-xs-1-4"><span class="letter">ES</span></li>
 					</ul>
 				</section>
 
+			</main>
 
+			<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+			<script src="js/main.js"></script>
 
 		</body>
-</html>
