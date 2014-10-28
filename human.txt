@@ -1,0 +1,22 @@
+# TEAM
+
+Designer, UI/UX Designer, and Web Developer: Mark Collates
+Site: http://markcollantes.ca
+Github: http://github.com/coll0335
+Twitter: @Marks_Method
+Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+Section to give thanks to anyone and anything that you took from someone to finish your site
+
+---
+
+# TECHNOLOGY
+
+- Sublime Text
+- Github
+- Hover.com
+- Photoshop
