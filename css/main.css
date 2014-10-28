@@ -1,11 +1,15 @@
 
 html,
 body,
-.wrapper,
-.container {
+#home, #work, #about, #contact {
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  display: block;
+}
+
+img {
+  display: block;
+  width: 100%;
 }
 
 .top-nav {
@@ -23,6 +27,7 @@ body,
 .hb-logo:hover {
   opacity: .6;
 }
+
 
 .landing-section {
   background: transparent url(../assets/images/shot3-BW.jpg) no-repeat center top;
@@ -89,4 +94,20 @@ body,
   border-bottom: 2px solid #ffffff;
 }
 
+.my_work1 {
+  width: 70%;
+  background-color: #cacaca;
+  padding:6em;
+}
 
+.my_work2 {
+  width: 40%;
+  background-color: #333333;
+  padding:6em;
+}
+
+.my_work {
+  width: 25%;
+  background-color: #fafafa;
+  padding:6em;
+}
