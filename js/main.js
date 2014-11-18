@@ -47,13 +47,15 @@ var $aboutSection = $('.about-section');
 var $aboutWrapper = $ ('.about__wrapper');
 
 
-$workSection.waypoint(function (direction) {
-	if (direction == 'down') {
-		$topNav.addClass('sticky-nav');
-	} else {
-		$topNav.removeClass('sticky-nav');
-	}
-}, { offset: '150px'});
+if (document.clientWidth >= 600) {
+	$workSection.waypoint(function (direction) {
+		if (direction == 'down') {
+			$topNav.addClass('sticky-nav');
+		} else {
+			$topNav.removeClass('sticky-nav');
+		}
+	}, { offset: '150px'});
+}
 
 $aboutSection.waypoint(function () {
 	$aboutWrapper.addClass('about__show');
