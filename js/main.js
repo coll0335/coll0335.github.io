@@ -39,6 +39,26 @@ $( "#toggle-nav" ).on( "click", function() {
   $( this ).toggleClass( "active" );
 });
 
+$( ".sn-home" ).on( "click", function() {
+  $( "#toggle-nav" ).toggleClass( "active" );
+});
+
+$( ".sn-work" ).on( "click", function() {
+  $( "#toggle-nav" ).toggleClass( "active" );
+});
+
+$( ".sn-about" ).on( "click", function() {
+  $( "#toggle-nav" ).toggleClass( "active" );
+});
+
+$( ".sn-contact" ).on( "click", function() {
+  $( "#toggle-nav" ).toggleClass( "active" );
+});
+
+
+
+// Masonry
+
 var container = document.querySelector('#masonry');
 var masonry = new Masonry(container, {
     columnWidth: 0,
