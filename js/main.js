@@ -1,4 +1,4 @@
-var hamburgerToggle = $('.hb-logo');
+var hamburgerToggle = $('#toggle-nav');
 var sideNav = $ ('.side-nav');
 var sideNavHome = $('.sn-home');
 var sideNavWork = $('.sn-work');
@@ -32,6 +32,12 @@ sideNavHome.on('click', sideNavItemClick);
 sideNavWork.on('click', sideNavItemClick);
 sideNavAbout.on('click', sideNavItemClick);
 sideNavContact.on('click', sideNavItemClick);
+
+// Hamburger Toggle Animation
+
+$( "#toggle-nav" ).on( "click", function() {
+  $( this ).toggleClass( "active" );
+});
 
 var container = document.querySelector('#masonry');
 var masonry = new Masonry(container, {
