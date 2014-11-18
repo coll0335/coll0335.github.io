@@ -33,6 +33,7 @@ sideNavWork.on('click', sideNavItemClick);
 sideNavAbout.on('click', sideNavItemClick);
 sideNavContact.on('click', sideNavItemClick);
 
+
 // Hamburger Toggle Animation
 
 $( "#toggle-nav" ).on( "click", function() {
