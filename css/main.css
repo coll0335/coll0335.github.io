@@ -108,6 +108,7 @@ img {
   padding: .65em 2em;
   position: fixed;
   z-index: 10000;
+  background-color: rgba(17,17,17,0.9);
   transition: all 250ms linear;
 }
 
@@ -116,14 +117,19 @@ img {
   right: 2em;
 }
 
-.sticky-nav {
-  display:none;
-  background-color:rgba(17,17,17,0.9);
-  transition: all 250ms linear;
-}
 
 
 @media all and (min-width: 600px) {
+
+  .top-nav{
+    background-color: transparent;
+  }
+
+  .sticky-nav {
+    display:block;
+    background-color:rgba(17,17,17,0.9);
+    transition: all 250ms linear;
+  }
 
 }
 
