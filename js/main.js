@@ -57,9 +57,7 @@ $( ".sn-contact" ).on( "click", function() {
 });
 
 
-// $(document).ready(function() {
-// 	$(".sn-container li a").serialScroll();
-// });
+
 
 var hashTagActive = "";
 $(document).ready( function() {
@@ -121,6 +119,10 @@ $aboutSection.waypoint(function () {
 
 
 // Item Light Box
+$(".work-item-container").on("click",function (e){
+	e.stopImmediatePropagation();
+});
+
 
 var itemClickOne = $ ('.item-click-1');
 var itemClickTwo = $ ('.item-click-2');
