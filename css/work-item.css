@@ -79,8 +79,8 @@
 
 	.item-desc-fixed {
 		position: fixed;
-		top:2em;
-		width: 33.333%;
+		top:3.5em;
+		width: 29.000%;
 	}
 
 }
@@ -164,5 +164,10 @@
 		right: 15%;
 		left: 15%;
 	}
+
+	.item-desc-fixed {
+		width: 21.000%;
+	}
+
 
 }
