@@ -614,18 +614,18 @@ img {
   color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin: 5% 0;
-  margin-right: 50px;
-  font-size: 4.000rem;
+  margin-right: .5em;
+}
+
+.about-h2-container {
+  border-right: 5px solid #fdc36f;
 }
 
 .about-h2-wrapper {
-  border-right: 5px solid #fdc36f;
-  margin-top: 5%;
+  margin-bottom: 3em;
 }
 
 .about-content h5 {
-  margin: 2em 0;
   color: #ffffff;
   line-height: 1.5;
   letter-spacing: 1px;
@@ -650,9 +650,19 @@ img {
   }
 
 
+@media only screen and (min-width: 500px) {
+  .xs-8-11 {
+    width: 72.7273%;
+  }
+}
+
 @media only screen and (min-width: 745px) {
   .about-content {
     padding: 3rem 10%;
+  }
+
+  .xs-7-11 {
+    width: 63.6364%;
   }
 }
 
@@ -695,14 +705,25 @@ img {
     padding: 6rem 14%;
   }
 
-  .about-content h2 {
-    margin: 15% 0;
-    margin-right: 50px;
+  .about-h2-container {
+    border-right:none;
   }
 
-  .about-content h5 {
-    margin: 3.1% 0;
-    letter-spacing: 1.5px;
+  .about-h2-wrapper {
+    border-right: 5px solid #fdc36f;
+    margin-bottom: 3em;
+  }
+
+  .about__content {
+    padding: 0 0 0 3.5em;
+  }
+
+  .xs-8-11 {
+    width:0;
+  }
+
+  .about-h2-wrapper {
+    margin-bottom: 0;
   }
 
   .unit-xs-1-3 {
@@ -716,14 +737,20 @@ img {
 
 @media only screen and (min-width: 1333px) {
   .about-content {
-      padding: 6rem 10%;
-    }
+    padding: 6rem 12%;
+  }
 }
+
+@media only screen and (min-width: 1500px) {
+  .about-content {
+    padding: 6em 13%;
+  }
+}
+
 
 @media only screen and (min-width: 1580px) {
   .about-content {
-    padding-left:15%;
-    padding-right:15%;
+    padding: 6em 17%;
   }
 
   .about-content h2 {
@@ -731,34 +758,34 @@ img {
   }
 }
 
-@media only screen and (min-width: 1683px) {
-  .about-content h2 {
-     margin: 20% 0;
-    margin-right: 70px;
+@media only screen and (min-width: 1700px) {
+  .about-content {
+    padding: 6em 19%;
   }
 }
 
 @media only screen and (min-width: 1900px) {
   .about-content {
-    padding-left:18%;
-    padding-right:18%;
+   padding: 8em 20%
   }
-
-
-
 }
+
+@media only screen and (min-width: 1975px) {
+  .about-content {
+    padding: 10em 22%;
+  }
+}
+
 
 @media only screen and (min-width: 2000px) {
   .about-content {
-    padding-left:20%;
-    padding-right:20%;
+    padding:10em 24%;
   }
 }
 
 @media only screen and (min-width: 2200px) {
-  .about-content h2 {
-    margin: 15% 0;
-    margin-right: 100px;
+  .about-content {
+    padding:10em 24%;
   }
 }
 
