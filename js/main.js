@@ -103,7 +103,7 @@ var $aboutSection = $('.about-section');
 var $aboutWrapper = $ ('.about__wrapper');
 
 
-if (window.screen.width >= 768) {
+if (window.screen.width >= 855) {
 	$workSection.waypoint(function (direction) {
 		if (direction == 'down') {
 			$topNav.addClass('sticky-nav');
