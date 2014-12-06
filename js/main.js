@@ -139,6 +139,7 @@ var workItemClickFive = $('.work-item-click-5');
 var workItemClickSix = $('.work-item-click-6');
 var workItemClickSeven = $('.work-item-click-7');
 var bodyContent = $ ('.body-content');
+var workItem = $ ('.work-item');
 
 var workItemClickHandler = function (e) {
 	var isActive = workItemClickOne.attr('data-state');
@@ -348,3 +349,10 @@ var workItemClose = function (e) {
 };
 
 workItemClickSeven.on('click', workItemClose);
+
+	 $(document).keyup(function(e) {
+        if (e.keyCode == 27) { // esc keycode
+            workItem.attr('data-state', 'inactive');
+            bodyContent.removeClass('noscroll');
+        }
+    });
