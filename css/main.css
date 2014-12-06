@@ -315,13 +315,13 @@ img {
 }
 
 .x-small:hover,
-.x-small:focus,
+.x-small:active,
 .small:hover,
-.small:focus,
+.small:active,
 .medium:hover,
-.medium:focus,
+.medium:active,
 .large:hover,
-.large:focus {
+.large:active {
   -webkit-filter: grayscale(0%);
   -moz-filter: grayscale(0%);
   -ms-filter: grayscale(0%);
