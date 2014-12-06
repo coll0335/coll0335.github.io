@@ -77,13 +77,9 @@
 		height: 250px;
 	}
 
-	.item-desc-fixed {
-		position: fixed;
-		top:3.5em;
-		width: 29.000%;
-	}
-
 }
+
+
 
 @media only screen and (min-width: 720px) {
 
@@ -100,6 +96,12 @@
 	.item-images {
 		width: 66.6667%;
 		float: left;
+	}
+
+		.item-desc-fixed {
+		position: fixed;
+		top:3.5em;
+		width: 29.000%;
 	}
 
 }

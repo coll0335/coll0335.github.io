@@ -325,7 +325,8 @@ img {
 .medium:focus,
 .large:hover,
 .large:active,
-.large:focus {
+.large:focus,
+.large:hover {
   -webkit-filter: grayscale(0%);
   -moz-filter: grayscale(0%);
   -ms-filter: grayscale(0%);
@@ -763,6 +764,7 @@ img {
     padding: 6em 13%;
   }
 }
+
 
 @media only screen and (min-width: 1580px) {
   .about-content {
