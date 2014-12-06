@@ -384,25 +384,29 @@ img {
   word-break: normal;
 }
 
-.item:hover .bottom-left {
+.item:hover .bottom-left,
+.item:active .bottom-left {
   visibility: visible;
   opacity: 1;
   left: 0;
 }
 
-.item:hover .top-right {
+.item:hover .top-right,
+.item:active .top-right {
   visibility: visible;
   opacity: 1;
   right: 0;
 }
 
-.item:hover .mid-left {
+.item:hover .mid-left,
+.item:active .mid-left {
   visibility: visible;
   opacity: 1;
   left: 0;
 }
 
-.item:hover .mid-right {
+.item:hover .mid-right,
+.item:active .mid-right {
   visibility: visible;
   opacity: 1;
   right: 0;
@@ -415,6 +419,7 @@ img {
 }
 
 .rm a:hover,
+.rm a:active,
 .rm a:focus {
   opacity: .6;
 }
