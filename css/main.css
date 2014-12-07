@@ -1220,6 +1220,10 @@ img {
     100% {transform: rotate(-360deg);}
   }
 
+}
 
+/* ---------------- 404 Page -------------------- */
 
+.error-page-wrapper {
+  background-color: red;
 }
