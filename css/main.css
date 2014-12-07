@@ -360,18 +360,21 @@ img {
 }
 
 .desc-box {
-  background-color: rgba(255, 255, 255, .7);
+  background-color:rgba(17,17,17,0.9) ;
   position: absolute;
   display: block;
   width: 100%;
   padding: 5%;
   bottom: 0;
+
+  transition: all 250ms linear;
+
 }
 
 .desc-box a {
   font-size: 1em;
   font-weight: 500;
-  color: #333333;
+  color:#ffffff;
   word-break: normal;
 }
 
@@ -387,6 +390,28 @@ img {
 
   .item {
     width:33.3333%;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  .item:hover .desc-box,
+  .item:focus .desc-box,
+  .item:active .desc-box {
+    padding-bottom: 2em;
+  }
+
+  .item:hover,
+  .item:focus,
+  .item:active {
+    cursor: pointer;
+  }
+
+  .item:hover .desc-box a,
+  .item:focus .desc-box a,
+  .item:active .desc-box a {
+    color:rgba(253, 195, 111, 1);
   }
 
 }
