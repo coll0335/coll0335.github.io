@@ -97,15 +97,18 @@ img {
 }
 
 @media only screen and (min-width: 340px) {
+
   .hb-toggle.active {
     margin-right: 7em;
   }
 }
 
 @media only screen and (min-width: 463px) {
+
   .hb-toggle.active {
     margin-right: 15em;
   }
+
 }
 
 /* --------- Sticky Navigation ----- */
@@ -125,7 +128,7 @@ img {
 
 
 
-@media all and (min-width: 855px) {
+@media all and (min-width: 768px) {
 
   .top-nav {
     background-color: transparent;
@@ -135,6 +138,17 @@ img {
     display:block;
     background-color:rgba(17,17,17,0.9);
     transition: all 250ms linear;
+  }
+
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+
+  .top-nav {
+  padding: .65em 2em;
+  position: fixed;
+  z-index: 10000;
+  background-color: rgba(17,17,17,0.9);
   }
 
 }
@@ -194,6 +208,7 @@ img {
 }
 
 @media only screen and (min-width: 463px) {
+
     .sn-container {
       width: 20em;
     }
@@ -202,6 +217,7 @@ img {
     font-size: 2.2500rem;
     line-height: 1.3333;
   }
+
 }
 
 
@@ -239,9 +255,11 @@ img {
   .landing-section {
       padding:7em 5%;
   }
+
   .unit-xs-1-4 {
     width: 23.0000%;
   }
+
 }
 
 @media only screen and (min-width: 640px) {
@@ -255,6 +273,7 @@ img {
   .ls-row {
     margin-top: 10%;
   }
+
 }
 
 /* Work Section */
