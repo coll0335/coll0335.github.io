@@ -40,7 +40,6 @@ a:focus {
 img {
   display: block;
   width: 100%;
-  max-width: 750px;
 }
 
 /* -------- Header --------- */
@@ -322,7 +321,7 @@ img {
 }
 
 .item-1 {
-  background: url(../assets/images/coffee-table-book.jpg) no-repeat center center;
+  background: url(../assets/images/booklet-mockup-thumbnail.jpg) no-repeat center center;
   background-size: cover;
 }
 
