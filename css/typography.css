@@ -62,6 +62,14 @@ small, .milli {
   line-height: 2.2500;
 }
 
+.cap {
+  text-transform: uppercase;
+}
+
+.reversed {
+  color: rgba(255, 255, 255, 1.0);
+}
+
 .micro {
   font-size: 0.55555rem;
   line-height: 3.3750;
