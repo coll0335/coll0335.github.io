@@ -35,6 +35,7 @@ a {
 img {
   display: block;
   width: 100%;
+  max-width: 750px;
 }
 
 /* -------- Header --------- */
@@ -326,7 +327,7 @@ img {
 }
 
 .item-7 {
-  background: url(../assets/images/shot4.jpg) no-repeat center center;
+  background: url(../assets/images/quote-book-cover.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -496,7 +497,7 @@ img {
 /* ---------- About Section --------------- */
 
 #about {
-  background: url(../assets/images/shot3.jpg) no-repeat center center;
+  background: url(../assets/images/error-page.jpg) no-repeat center center;
   background-size: cover;
 }
 
