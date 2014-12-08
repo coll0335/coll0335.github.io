@@ -46,6 +46,15 @@
 	</head>
 		<body class="body-content">
 
+		<ul class="skip-links">
+			<li><a href="#nav">Skip to Navigation</a></li>
+			<li><a href="#home">Skip to Landing Section</a></li>
+			<li><a href="#work">Skip to Work Section</a></li>
+			<li><a href="#about">Skip to About Section</a></li>
+			<li><a href="#contact">Skip to Contact Section</a></li>
+			<li><a href="#social">Skip to Social Networks</a></li>
+		</ul>
+
 			<header class="nav-wrapper" role="banner">
 				<ul class="top-nav unit unit-xs-1">
 					<li class="unit">
@@ -59,7 +68,7 @@
 							</a>
 					</li>
 				</ul>
-				<div class="side-nav" data-state="inactive" role="navigation">
+				<div id="nav" class="side-nav" data-state="inactive" role="navigation">
 					<ul class="sn-container smooth-scroll">
 							<li class="mega giga sn-home"><a href="#home">Home</a></li>
 							<li class="mega giga sn-work"><a href="#work">Work</a></li>
@@ -188,7 +197,7 @@
 										</div>
 									</div>
 									<div class="item-images">
-										<img src="assets/images/steez-presentation.jpg">
+										<img src="assets/images/steez-presentation.jpg" alt="Steez TV">
 										<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 										</style>
 										<div class='embed-container'>
@@ -231,7 +240,7 @@
 											</div>
 										</div>
 										<div class="item-images">
-											<img src="assets/images/behance-presentation-jericks-website.jpg">
+											<img src="assets/images/behance-presentation-jericks-website.jpg" alt="Jerick's Website">
 										</div>
 								</div>
 
@@ -270,7 +279,7 @@
 											</div>
 										</div>
 										<div class="item-images">
-											<img src="assets/images/quote-book.jpg">
+											<img src="assets/images/quote-book.jpg" alt="Quote Book">
 										</div>
 								</div>
 
@@ -311,7 +320,7 @@
 							</div>
 						</div>
 
-						<div class=" unit unit-xs-1 sn-wrapper">
+						<div class=" unit unit-xs-1 sn-wrapper" id="social">
 							<ul>
 								<li><a href="https://www.behance.net/CollantesMark" target="_blank">Behance</a></li>
 								<li><a href="https://twitter.com/Marks_Method" target="_blank">Twitter</a></li>
@@ -333,6 +342,17 @@
 			<script src="js/masonry.pkgd.min.js"></script>
 			<script src="js/waypoints.min.js"></script>
 			<script src="js/main.js"></script>
+
+			<script>
+			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			  ga('create', 'UA-57394084-1', 'auto');
+			  ga('send', 'pageview');
+
+			</script>
 
 		</body>
 </html>

@@ -32,6 +32,11 @@ a {
   text-decoration:none;
 }
 
+a:focus {
+  outline: 3px solid rgba(253,195,111,.8);
+  padding: 5px;
+}
+
 img {
   display: block;
   width: 100%;
@@ -39,6 +44,26 @@ img {
 }
 
 /* -------- Header --------- */
+
+.skip-links {
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
+
+.skip-links a {
+  position: absolute;
+  top: -3em;
+  color: rgba(255, 255, 255, 1.0);
+  background-color: rgba(34, 34, 34, .8);
+  padding: .5em;
+
+  z-index: 2000000;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
 
 .logo {
   width: 40px;
