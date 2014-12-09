@@ -38,6 +38,7 @@ sideNavContact.on('click', sideNavItemClick);
 
 $( "#toggle-nav" ).on( "click", function() {
   $( this ).toggleClass( "active" );
+  $( this ).blur();
 });
 
 $( ".sn-home" ).on( "click", function() {
