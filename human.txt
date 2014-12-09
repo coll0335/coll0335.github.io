@@ -10,7 +10,7 @@ Location: Ottawa, Canada
 
 # THANKS
 
-Section to give thanks to anyone and anything that you took from someone to finish your site
+Thank you to my Professor, Thomas J Bradley for an awesome 2 years of coding and making it worth while. Also, Cheers to all the students from the Graphic Design Department year 2015. #ACGD2015
 
 ---
 
@@ -20,3 +20,4 @@ Section to give thanks to anyone and anything that you took from someone to fini
 - Github
 - Hover.com
 - Photoshop
+— Illustrator
