@@ -242,6 +242,7 @@ img {
   background-size: cover;
   padding:7em 0 5em 0;
   text-align: center;
+  height: 100vh;
 }
 
 .landing-section li {
