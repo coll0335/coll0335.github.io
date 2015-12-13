@@ -32,10 +32,10 @@ a {
   text-decoration:none;
 }
 
-a:focus {
+/*a:focus {
   outline: 3px solid rgba(253,195,111,.8);
   padding: 5px;
-}
+}*/
 
 img {
   display: block;
